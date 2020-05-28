@@ -7,6 +7,7 @@
 
 body {
     font-family: Roboto;
+    font-size: 18px;
     background: #f2f2f2;
 }
 
@@ -38,6 +39,50 @@ header#main-header li a {
 
 header#main-header li a:hover {
     background: #FFF;
-    color: #FC963A;
+    color: #fc963a;
     text-decoration: underline;
+}
+
+div#main-content {
+    width: 750px;
+    margin: 20px auto 0;
+    background: #fff;
+}
+
+div#main-content img {
+    width:400px;
+    height: 255px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+}
+
+div#main-content h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#main-content article h2 {
+    margin-bottom: 5px;
+}
+
+div#main-content article {
+    padding: 25px;
+}
+
+div#main-content article p {
+    margin-bottom: 20px;
+}
+
+div#main-content li {
+    list-style: none;
+}
+
+div#main-content article a {
+    color: #fc963a;
+}
+
+div#main-content article a:hover {
+    background: #fc963a;
+    color: #FFF;
 }
