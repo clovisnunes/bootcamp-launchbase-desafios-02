@@ -42,3 +42,45 @@ header#main-header li a:hover {
     color: #fc963a;
     text-decoration: underline;
 }
+
+div.container {
+    display: grid;
+    grid-template-columns: auto 250px 250px 250px auto;
+    column-gap: 50px;
+}
+
+div.container div.card {
+    margin-top: 70px;
+    border: 1px groove black;
+    background: white;
+    display: grid;
+    grid-template-rows: 62% 38%;
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+img.logo {
+    background: #000;
+    grid-row-start: 1;
+    
+}
+
+div.description {
+    grid-row-start: 2;
+    text-align: center;
+    background: #FC963A;
+    color: #fff;
+}
+
+
+div.container div.item-a {
+    grid-column-start: 2;
+}
+
+div.container div.item-b {
+    grid-column-start: 3;
+}
+
+div.container div.item-c {
+    grid-column-start: 4;
+}
